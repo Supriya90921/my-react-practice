@@ -22,6 +22,10 @@ function App() {
       <Greeting name="Supriya" />
       <Greeting name="React Learner" />
     </div>
+                    <div>
+      <Profile name="Supriya" />
+      <Profile role="React Learner" />
+    </div>
       </header>
     </div>
   );
