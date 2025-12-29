@@ -3,4 +3,3 @@ function Greetings({ name }) {
 }
 
 export default Greetings;
-
