@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Greeting from './Greetings';
+import Greetings from './Greetings';
+import Profile from  './Profile';
 
 function App() {
   return (
@@ -19,13 +20,9 @@ function App() {
           Learn React
         </a>
           <div>
-      <Greeting name="Supriya" />
-      <Greeting name="React Learner" />
-    </div>
-                    <div>
-      <Profile name="Supriya" />
-      <Profile role="React Learner" />
-    </div>
+      <Greetings name="Supriya" />
+      <Greetings name="React Learner" />
+      <Profile name1="Supriya" role="Software developer"/>   </div>
       </header>
     </div>
   );
