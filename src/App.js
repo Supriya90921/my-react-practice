@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Greetings from './Greetings';
 import Profile from  './Profile';
+import State from './State';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Greetings name="Supriya" />
       <Greetings name="React Learner" />
       <Profile name1="Supriya" role="Software developer"/>   </div>
+      <State/>
       </header>
     </div>
   );
