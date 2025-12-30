@@ -7,7 +7,7 @@ function State(){
 
     const increament =() =>
     {
-               setcount(count+1);
+        setcount(count+1);
     };
 
     const decereament=() =>
@@ -32,4 +32,5 @@ function State(){
     );
 }
 export default State;
+
 
