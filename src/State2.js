@@ -1,28 +1,22 @@
-import {useState} from 'react';
+import React ,{useState} from react;
 
 function State2()
 {
-    const[show ,setshow]=useState(false);
+    const [show ,setshow]=useState(false);
 
     const ShowFlower =() =>
-    {
-        setshow(true);
-        
-    };
-      const NoFlower =() =>
-    {
-        setshow(false);
-        
-    };
-
-    return(
-        <div>
-           
-        <button onClick={ShowFlower} onDoubleClick={NoFlower}>click me</button>
-             {show && <p>🌸 Flower is visible</p>}
- 
-    
-        </div>
-    )
+        {
+            setshow(true);
+        }
+    const NoShowFlower =() =>
+        {
+            setshow(false);
+        }
 }
+return(
+    <div><h1>Show value {show}</h1></div>
+    <button onClick={ShowFlower} onDOubleClick={NoShowFlower}> Click Me </buton>
+     {show && <p>This is my flower </p>}
+)
+
 export default State2;
