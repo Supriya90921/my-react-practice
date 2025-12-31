@@ -11,12 +11,13 @@ function State2()
     const NoShowFlower =() =>
         {
             setshow(false);
-        }
-}
+        };
 return(
-    <div><h1>Show value {show}</h1></div>
+    <div><h1>Show value {show}</h1>
     <button onClick={ShowFlower} onDOubleClick={NoShowFlower}> Click Me </buton>
      {show && <p>This is my flower </p>}
+      </div>
 )
+     }
 
 export default State2;
