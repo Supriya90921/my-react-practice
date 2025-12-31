@@ -1,4 +1,4 @@
-import React ,{useState} from react;
+import { useState } from "react";
 
 function State2()
 {
@@ -12,12 +12,13 @@ function State2()
         {
             setshow(false);
         };
-return(
+
+        return(
     <div><h1>Show value {show}</h1>
-    <button onClick={ShowFlower} onDOubleClick={NoShowFlower}> Click Me </buton>
+    <button onClick={ShowFlower} onDoubleClick={NoShowFlower}> Click Me </button>
      {show && <p>This is my flower </p>}
       </div>
 )
-     }
+}
 
 export default State2;
