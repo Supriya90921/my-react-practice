@@ -7,7 +7,7 @@ function State2()
     const ShowFlower =() =>
         {
             setshow(true);
-        }
+        };
     const NoShowFlower =() =>
         {
             setshow(false);
