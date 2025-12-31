@@ -7,13 +7,20 @@ function State2()
     const ShowFlower =() =>
     {
         setshow(true);
+        
+    };
+      const NoFlower =() =>
+    {
+        setshow(false);
+        
     };
 
     return(
         <div>
-            <h1>this is me</h1>
-        <button onClick={ShowFlower }>click me   </button>
-     {show && <p>🌸 Flower is visible</p>}
+           
+        <button onClick={ShowFlower} onDoubleClick={NoFlower}>click me</button>
+             {show && <p>🌸 Flower is visible</p>}
+ 
     
         </div>
     )
