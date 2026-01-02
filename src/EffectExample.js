@@ -1,3 +1,5 @@
+import {useState ,useEffect} from 'react';
+
 function EffectExaple()
 {
   const[load, showload]=useState(0);
@@ -8,12 +10,12 @@ function EffectExaple()
       return
       {
         console.log("component unmount")
-      }[load]);
-    }
+      }[load];
+    });
             return(
                   <div> <h1>Hii this is load {load}</h1>
-                <button onClick=showload()=>{load+1}> click me </button>
-             
+                <button onClick=showload(()=load +1)> click me </button>
+              </div>
             );
 }
 export default EffectExample;
