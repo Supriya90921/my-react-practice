@@ -3,6 +3,10 @@ import './App.css';
 import Greetings from './Greetings';
 import Profile from  './Profile';
 import State from './State';
+import Counter from './Counter';
+import State2 from './State2';
+import EffectExample  from './EffectExample';
+import Chatroom from './Chatroom';
 
 function App() {
   return (
@@ -25,6 +29,10 @@ function App() {
       <Greetings name="React Learner" />
       <Profile name1="Supriya" role="Software developer"/>   </div>
       <State/>
+      <State2/>
+      <Counter/>
+      <EffectExample/>
+      <Chatroom />
       </header>
     </div>
   );
