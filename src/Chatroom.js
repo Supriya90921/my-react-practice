@@ -26,4 +26,4 @@ function ChatRoom({ roomId }) {
   );
 }
 
-export default Chatroom;
+export default ChatRoom;
