@@ -7,7 +7,7 @@ import Counter from './Counter';
 import State2 from './State2';
 import EffectExample  from './EffectExample';
 import Chatroom from './Chatroom';
-
+//import necessary files, libraries and components 
 function App() {
   return (
     <div className="App">
